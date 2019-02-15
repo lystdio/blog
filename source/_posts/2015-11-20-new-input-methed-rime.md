@@ -201,7 +201,7 @@ patch:
     preset_color_schemes:
     demo:        #样式名称，就是上述“style/color_scheme: demo”
     author: "Barret Lee <barret.china@gmail.com>"        #作者
-    name: "小胡子哥"                      #作者名字
+    name: ""                      #作者名字
     label_color: 0xf2a45a                    #预选栏编号颜色
     back_color: 0x333333                    #背景颜色
     candidate_text_color: 0xb9b9b9          #非第一后选项文字颜色

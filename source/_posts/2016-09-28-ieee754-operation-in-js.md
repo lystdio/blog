@@ -205,5 +205,3 @@ console.log(base2Str(1.2).toString(2));
 
 题图：[math](https://unsplash.com/search/math?photo=5mZ_M06Fc9g) by Roman Mager
 
-***笔耕不辍，欢迎关注微信公众号小胡子哥（barretlee_com），分享生活，分享技术，我在那里等你。***
-
