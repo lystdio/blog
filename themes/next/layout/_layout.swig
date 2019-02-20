@@ -21,7 +21,7 @@
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
-  <meta name="baidu-site-verification" content="mI6O7pmEdr" />{# 百度站长统计 HTML标签验证 #}
+  <meta name="baidu-site-verification" content="qInMpCXDbF" />{# 百度站长统计 HTML标签验证 #}
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
