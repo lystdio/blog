@@ -78,13 +78,13 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  #type: git
+- type: git
   repo:
       gitee: git@gitee.com:lystdio/lystdio.git
       coding: git@git.coding.net:handishenniu/handishenniu.git
       github: git@github.com:lystdio/lystdio.github.io.git
   branch: master
-  type: baidu_url_submitter
+- type: baidu_url_submitter
 
 # 在线调试
 # browsersync:
@@ -92,11 +92,6 @@ deploy:
 #   ghostMode:
 #     scroll: true
 #   instanceName: "uniqueString"
-
-# 站点地图
-# Plugins:
-# - hexo-generator-baidu-sitemap
-# - hexo-generator-sitemap
 
 sitemap:
     path: sitemap.xml
@@ -110,7 +105,6 @@ baidu_url_submit:
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
 
 # 本地搜索
-# npm install hexo-generator-searchdb --save
 search:
   path: search.xml
   field: post
